@@ -62,7 +62,13 @@ export default function ShopContent({ initialProducts = [], initialCategories = 
 
   return (
     <section className="shop" aria-label="Shop products">
-      <h1 className="sr-only">Discover Our Products</h1>
+      <div className="shop_header">
+        <h1 className="shop_header-title">DISCOVER OUR PRODUCTS</h1>
+        <p className="shop_header-text">
+          Lorem ipsum dolor sit amet consectetur. Amet est posuere rhoncus
+          scelerisque. Dolor integer scelerisque nibh amet mi ut elementum dolor.
+        </p>
+      </div>
 
       <script
         type="application/ld+json"

@@ -77,10 +77,10 @@ ShopFilter.Topbar = function ShopFilterTopbar({
               {SORT_OPTIONS.map((opt) => (
                 <li key={opt.value} role="option" aria-selected={sortBy === opt.value} className="shop_sort-option">
                   <label className="shop_sort-option-label">
+                    <span>{opt.label}</span>
                     {sortBy === opt.value && (
                       <Check size={12} strokeWidth={2.5} aria-hidden="true" />
                     )}
-                    <span>{opt.label}</span>
                     <input
                       type="radio"
                       name="sort"
