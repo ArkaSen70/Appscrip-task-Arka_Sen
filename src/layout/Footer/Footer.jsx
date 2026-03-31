@@ -54,7 +54,7 @@ export default function Footer() {
         <div className="footer_top">
           <section className="footer_newsletter" aria-labelledby="newsletter-heading">
             <h2 id="newsletter-heading" className="footer_section-title">BE THE FIRST TO KNOW</h2>
-            <p className="footer_newsletter-desc">Sign up for updates from mettā muse.</p>
+            <p className="footer_newsletter-desc">Sign up for updates from metta muse.</p>
             <form className="footer_newsletter-form" action="#" method="post" aria-label="Newsletter subscription">
               <label htmlFor="email-input" className="sr-only">Enter your e-mail address</label>
               <input
@@ -124,7 +124,7 @@ export default function Footer() {
           <section className="footer_col" aria-labelledby="company-heading">
             <input type="checkbox" id="toggle-company" className="footer_toggle" aria-hidden="true" />
             <label htmlFor="toggle-company" className="footer_accordion-label">
-              <h2 id="company-heading" className="footer_brand-name">mettā muse</h2>
+              <h2 id="company-heading" className="footer_brand-name">metta muse</h2>
               <ChevronDownIcon />
             </label>
             <nav className="footer_accordion-body" aria-label="Company navigation">
@@ -181,7 +181,7 @@ export default function Footer() {
 
             <div className="footer_payments">
               <h2 className="footer_accepts-title">
-                mettā muse <span>ACCEPTS</span>
+                metta muse <span>ACCEPTS</span>
               </h2>
               <div className="footer_payment-icons" role="list" aria-label="Accepted payment methods">
                 {PAYMENT_METHODS.map((method) => (

@@ -73,13 +73,13 @@ export default function Header() {
                 <span className="header_hamburger-open"><HamburgerIcon /></span>
                 <span className="header_hamburger-close"><CloseIcon /></span>
               </label>
-              <a href="/" aria-label="mettā muse home" className="header_logomark-link">
+              <a href="/" aria-label="metta muse home" className="header_logomark-link">
                 <Image src="/Logo.svg" alt="" width={36} height={36} aria-hidden="true" />
               </a>
             </div>
 
             <div className="header_center">
-              <a href="/" className="header_wordmark" aria-label="mettā muse">
+              <a href="/" className="header_wordmark" aria-label="metta muse">
                 LOGO
               </a>
             </div>
